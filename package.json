@@ -1,0 +1,19 @@
+{
+  "name": "09-30-2024-express",
+  "version": "1.0.0",
+  "description": "yo, whatsapp bro!!! live coding binar fullstack web development class 2",
+  "main": "index.js",
+  "scripts": {
+    "puh": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Binar Academy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
