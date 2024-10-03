@@ -39,7 +39,7 @@ app.get("/api/v1/cars/:id", (req, res) => {
   if (!car) {
     return res.status(404).json({
       status: "Failed",
-      message: "failed retrieve car data",
+      message: `failed retrieve car data with id ${carId}`,
       isSuccess: true,
       data: {
         car,
